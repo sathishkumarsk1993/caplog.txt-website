@@ -1,0 +1,14 @@
+[[docs]]
+  name = "Prologue"
+  weight = 10
+  identifier = "prologue"
+  url = "/docs/prologue/"
+
+
+
+[[main]]
+  name = "Blog"
+  weight = 30
+  identifier = "get-started"
+  url = "https://medium.com/@sathishstarlord/caplog-txt-a-simple-plaintext-future-proof-personal-logging-format-19cb5cdcfb4a"
+
