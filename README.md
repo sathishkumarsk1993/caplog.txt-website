@@ -1,135 +1,156 @@
- [![hugo + netlify](https://res.cloudinary.com/dzkoxrsdj/image/upload/v1656562989/template_1_edyp8b.png)](https://ntl.fyi/3P9w1mr)
+<p align="center">
+  <a href="https://getdoks.org/">
+    <img alt="Doks" src="https://doks.netlify.app/logo-doks.svg" width="60">
+  </a>
+</p>
 
-# Hugo Quickstart Template   
+<h1 align="center">
+  Doks
+</h1>
 
-This is a bare-bones Hugo project that has everything you need to quickly deploy it to [Netlify](https://netlify.com). 
+<h3 align="center">
+  Doks Child Theme
+</h3>
 
-Hate reading, here's a video: https://youtu.be/t-tsRxxYdpk
+<p align="center">
+  Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize.
+</p>
 
-Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-app-quick/
+<p align="center">
+  <a href="https://github.com/h-enk/doks-child-theme/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/h-enk/doks-child-theme?style=flat-square" alt="GitHub">
+  </a>
+  <a href="https://github.com/h-enk/doks-child-theme/releases">
+    <img src="https://img.shields.io/github/v/release/h-enk/doks-child-theme?include_prereleases&style=flat-square"alt="GitHub release (latest SemVer including pre-releases)">
+  </a>
+  <a href="https://github.com/h-enk/doks-child-theme/actions/workflows/codeql-analysis.yml">
+    <img src="https://img.shields.io/github/workflow/status/h-enk/doks-child-theme/CodeQL/master?style=flat-square" alt="GitHub Workflow Status (branch)">
+  </a>
+  <a href="https://app.netlify.com/sites/hyas-child-theme/deploys">
+    <img src="https://img.shields.io/netlify/75395a37-8537-4410-a8c3-d56bf27ec963?style=flat-square" alt="Netlify">
+  </a>
+</p>
 
-## Table of Contents:
+![Doks — Modern Documentation Theme](https://raw.githubusercontent.com/h-enk/doks/master/images/doks.png)
 
-- [Quick Setup + Deploy Option](#quick-setup--deploy-option)
-- [Regular Setup](#regular-setup)
-  - [Cloning + Install Packages](#1-cloning--install-packages)
-  - [Deploying](#2-deploying)
-- [Styling](#styling)
-  - [Notes on Styling](#notes-on-styling)
-  - [Remove Styling](#remove-styling)
-- [Hugo + Netlify Resources](#hugo--netlify-resources)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-  - [Removing Cypress](#removing-cypress)
-- [Want to learn more?](#want-to-learn-more)
+## Demo
 
-## Quick Setup + Deploy Option
+- [doks-child-theme.netlify.app](https://doks-child-theme.netlify.app/)
 
-Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
+## Why Doks?
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart)
+Nine main reasons why you should use Doks:
 
-## Regular Setup
+1. __Security aware__. Get A+ scores on [Mozilla Observatory](https://observatory.mozilla.org/analyze/doks.netlify.app) out of the box. Easily change the default Security Headers to suit your needs.
 
- ### 1. Cloning + Running Locally
+2. __Fast by default__. Get 100 scores on [Google Lighthouse](https://googlechrome.github.io/lighthouse/viewer/?gist=59aafe464a68f8bc30b8e9a636d5b053) by default. Doks removes unused css, prefetches links, and lazy loads images.
 
-  - Clone this repo with one of these options:
+3. __SEO-ready__. Use sensible defaults for structured data, open graph, and Twitter cards. Or easily change the SEO settings to your liking.
 
-    - Click the 'Use this template' button at the top of the page
-    - Or via the command line `git clone https://github.com/netlify-templates/hugo-quickstart`
+4. __Development tools__. Code with confidence. Check styles, scripts, and markdown for errors and fix automatically or manually.
 
- - Start the Hugo sever & check it out:
+5. __Bootstrap framework__. Build robust, flexible, and intuitive websites with Bootstrap 5. Easily customize your Doks site with the source Sass files.
 
-   - `hugo server -D`
-   - go to [http://localhost:1313/](http://localhost:1313/)
+6. __Netlify-ready__. Deploy to Netlify with sensible defaults. Easily use Netlify Functions, Netlify Redirects, and Netlify Headers.
 
-  > Alternatively, you can run this locally with [the Netlify CLI](https://docs.netlify.com/cli/get-started/)'s by running the `netlify dev` command for more options like receiving a live preview to share (`netlify dev --live`) and the ability to test [Netlify Functions](https://www.netlify.com/products/functions) and [redirects](https://docs.netlify.com/routing/redirects/). 
+7. __Full text search__. Search your Doks site with FlexSearch. Easily customize index settings and search options to your liking.
 
-  ### 2. Deploying
-  - Install the Netlify CLI globally `npm install netlify-cli -g`
-    
-  - Run `hugo`
+8. __Page layouts__. Build pages with a landing page, blog, or documentation layout. Add custom sections and components to suit your needs.
 
-  - Then use the `netlify deploy` for a deploy preview link or `netlify deploy --prod` to deploy to production
+9. __Dark mode__. Switch to a low-light UI with the click of a button. Change colors with variables to match your branding.
 
-  Here are a few other ways you can deploy this template:
-    
-  - Use the Netlify CLI's create from template command `netlify sites:create-template hugo-quickstart` which will create a repo, Netlify project, and deploy it
-    
-  - If you want to utilize continuous deployment through GitHub webhooks, run the Netlify command `netlify init` to create a new project based on your repo or `netlify link` to connect your repo to an existing project
+### Other features
 
-## Styling
+- __Multilingual and i18n__ support
+- __Versioning__ documentation support
+- __KaTeX__ math typesetting
+- __Mermaid__ diagrams and visualization
+- __highlight.js__ syntax highlighting
 
-We've added some modern styling to this template using Sass within an external stylesheet, this will allow you to easily remove our styling and add in your own. 
+## Requirements
 
-If you decide that you want to keep our styling you can review our style notes below. 
+- [Git](https://git-scm.com/) — latest source release
+- [Node.js](https://nodejs.org/) — latest LTS version or newer
 
-### Notes on Styling
+<details>
+<summary>Why Node.js?</summary>
 
-The variables below give you the ability to change the gradient colors of the blobs and are interpolated into the URL string of the background-img within the body. 
+Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update](https://getdoks.org/docs/help/how-to-update/) resources, build tooling, plugins, and build scripts.
 
-```css
-// Controls the blob blur gradient colors within the main tag's svg
---top-right-blur-1: #2ebc92;
---top-right-blur-2: #ecbb50;
---bttm-left-blur-1: #ff3e89;
---bttm-left-blur-2: #0095cc;
-```
+</details>
 
-## Remove Styling
+## Get started
 
-If you decide that our styling is not for you, all you'll need to do is remove the [demo-styling.css](https://github.com/netlify-templates/hugo-quickstart/blob/main/themes/netlify-basic/static/css/demo-styling.css) file. 
+Start a new Doks project in three steps:
 
-## Hugo + Netlify Resources
+### 1. Create a new site
 
-Here are some resources to help you on your Hugo + Netlify coding fun!
+Doks is available as a child theme and a starter theme.
 
-- [Hugo on Netlify Integration Page](https://ntl.fyi/3P9w1mr)
+#### Child theme
 
-
-Hope this template helps :) Happy coding 👩🏻‍💻!
-
----
-
-## Testing
-
-### Included Default Testing
-
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
-
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
-
-If your team is not interested in this tooling, you can remove them with ease!
-
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
-
-### Removing Cypress
-
-For our testing, we use [Cypress](https://www.cypress.io/) for end-to-end testing. This makes sure that we can validate that our templates are rendering and displaying as we’d expect. By default, we have Cypress not generate deploy links if our tests don’t pass. If you’d like to keep Cypress and still generate the deploy links, go into your `netlify.toml` and delete the plugin configuration lines:
-
-```diff
-[[plugins]]
-  package = "netlify-plugin-cypress"
--  [plugins.inputs.postBuild]
--    enable = true
--
--  [plugins.inputs]
--    enable = false 
-```
-
-If you’d like to remove the `netlify-plugin-cypress` build plugin entirely, you’d need to delete the entire block above instead. And then make sure sure to remove the package from the dependencies using:
+- Intended for novice to intermediate users
+- Intended for minor customizations
+- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
-npm uninstall -D netlify-plugin-cypress
+git clone https://github.com/h-enk/doks-child-theme.git my-doks-site && cd my-doks-site
 ```
 
-And lastly if you’d like to remove Cypress entirely, delete the entire `cypress` folder and the `cypress.config.ts` file. Then remove the dependency using:
+#### Starter theme
+
+- Intended for intermediate to advanced users
+- Intended for major customizations
+- [Easily update npm packages](https://getdoks.org/docs/help/how-to-update/)
 
 ```bash
-npm uninstall cypress
+git clone https://github.com/h-enk/doks.git my-doks-site && cd my-doks-site
 ```
+
+<details>
+<summary>Help me choose</summary>
+
+Not sure which one is for you? Pick the child theme.
+
+</details>
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start development server
+
+```bash
+npm run start
+```
+
+## Other commands
+
+Doks comes with [commands](https://getdoks.org/docs/prologue/commands/) for common tasks.
+
+## Documentation
+
+- [Netlify](https://docs.netlify.com/)
+- [Hugo](https://gohugo.io/documentation/)
+- [Doks](https://getdoks.org/)
+
+## Communities
+
+- [Netlify Community](https://community.netlify.com/)
+- [Hugo Forums](https://discourse.gohugo.io/)
+- [Doks Discussions](https://github.com/h-enk/doks/discussions)
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website.
+
+[![OC sponsor 0](https://opencollective.com/doks/tiers/sponsor/0/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/0/website)
+[![OC sponsor 1](https://opencollective.com/doks/tiers/sponsor/1/avatar.svg)](https://opencollective.com/doks/tiers/sponsor/1/website)
+
+## Backers
+
+Support this project by becoming a backer. Your avatar will show up here.
+
+[![Backers](https://opencollective.com/doks/tiers/backer.svg?49741992)](https://opencollective.com/doks)
